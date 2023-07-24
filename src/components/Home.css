@@ -1,0 +1,34 @@
+
+#root{
+    min-height: 100vh;
+}
+
+.home-container{
+    position: absolute;
+    top: 45%;
+    right:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Aligns items on the vertical line (since flex-direction is column) */
+    align-items: flex-end; /* Aligns items on the horizontal line to the right side */
+    
+}
+
+.home-text{
+    color: white;
+    font-size: 60px;
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    text-align: right;
+    z-index: 1;
+}
+
+.home-btns{
+    margin-top:10px;
+}
+
+.home-btns .btn{
+    margin-right: 20px;
+}
+

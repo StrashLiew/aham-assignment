@@ -1,0 +1,79 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 300px;
+    min-height: 300px;
+    margin: auto;
+    border: 1px solid #000;
+    position: absolute;
+    top:30%;
+    left: 0;
+    right: 0;
+  }
+
+  .customer-name{
+    margin-top:10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  .delete-icon {
+    margin-left: auto;
+  }
+
+  .list-group{
+    margin-bottom:10px;
+  }
+
+
+
+.arrow div{
+    position: relative;
+    margin-bottom:120px;
+    border-top: 8px solid #202020;
+    border-left: 8px solid #202020;
+    transform: rotate(45deg);
+    width: 40px;
+    height: 40px;
+}
+
+.arrow-right{
+    transform: rotate(90deg);
+}
+
+.arrow-left{
+    transform: rotate(-90deg);
+}
+
+.form-btn{
+    display: flex;
+    align-items:flex-end;
+}
+
+.formbold-btn {
+    text-align: center;
+    font-size: 8px;
+    border-radius: 32px;
+    padding: 8px 10px;
+    border: none;
+    font-weight: 600;
+    background-color: #6a64f1;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+    filter: brightness(0.9);
+  }
+  
+  .formbold-btn:active {
+   filter: brightness(0.8); /* Further darken the button */
+   box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.1); /* Inset shadow to give a "pressed" effect */
+ }

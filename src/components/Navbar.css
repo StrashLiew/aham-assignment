@@ -1,0 +1,29 @@
+.navbar-nav{
+    margin-right: 2rem;
+}
+
+.d-inline-block{
+    margin-right: 0.5rem;
+}
+
+.navbar-brand{
+    font-size: 1.6rem;
+    margin-right: 2rem;
+
+}
+
+.nav-link{
+    color: white; /* Change to your desired hover color */
+    background-color: transparent; /* Change to your desired hover background color */
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    color: black; /* Change to your desired hover color */
+    background-color: white; /* Change to your desired hover background color */
+  }
+  
+  .nav-link:active {
+    color: grey; /* Change to your desired active color */
+    background-color: white; /* Change to your desired active background color */
+  }
